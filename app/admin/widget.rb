@@ -1,4 +1,5 @@
 ActiveAdmin.register Widget do
+  permit_params :awesome, :name
 
   
   # See permitted parameters documentation:
